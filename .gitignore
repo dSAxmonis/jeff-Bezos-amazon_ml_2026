@@ -1,0 +1,59 @@
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Dataset (large files, not for git)
+dataset/
+
+# Output files (generated, not for git)
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model artifacts
+*.pkl
+*.joblib
+*.bin
+*.pt
+*.pth
+*.onnx
+*.h5
+
+# FAISS indexes
+*.faiss
+
+# Logs
+*.log
+
+# Temporary
+tmp/
+temp/
+scratch/
+
+# Pipeline working data
+work/
+*_submission.zip
